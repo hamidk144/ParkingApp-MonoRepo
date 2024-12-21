@@ -1,6 +1,25 @@
-# Autospace Workshop
+## Parking APP
 
-This repository contains the Autospace Workshop project, which includes multiple applications and libraries. This guide will help you set up the project locally and run the applications.
+This is a full-stack monorepo application built with Next.js, NestJS, GraphQL, REST, Prisma, Mui, and Tailwind. The application has four frontend applications:
+
+Customer-facing application
+Manager application
+Wallet application
+Admin application
+The application also has two APIs:
+
+GraphQL API
+REST API
+The application has the following features:
+
+Search for garages
+Book parking slots
+Request valet drivers
+View booking history
+Manage bookings
+Assign and track valet drivers
+Check in and check out vehicles
+The application is built using a monorepo architecture, which allows for better code sharing and collaboration between the different teams working on the project. The application is also built using a number of modern technologies, such as Next.js, NestJS, GraphQL, and Prisma, which make it a very powerful and scalable application.
 
 ## Prerequisites
 
@@ -18,8 +37,7 @@ Before you begin, ensure you have the following installed on your system:
 Clone the repository to your local machine using Git.
 
 ```bash
-git clone https://github.com/karthickthankyou/autospace-workshop.git
-cd autospace-workshop
+git clone repo-url
 ```
 
 ### 2. Install Dependencies
@@ -71,6 +89,3 @@ Navigate to the apps/web directory and start the WEB server.
 cd apps/web
 yarn dev
 ```
-
-License
-This project is licensed under the MIT License.
